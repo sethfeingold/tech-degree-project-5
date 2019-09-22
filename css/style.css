@@ -1,0 +1,43 @@
+/* ***************** */
+/* Searchbox Styles */
+/* *************** */
+
+.searchbox {
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+
+
+
+/* ***************** */
+/*   Grid Styles    */
+/* *************** */
+
+.grid-container {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.thumbnail-col1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.thumbnail-col2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.thumbnail-col3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.thumbnail-col4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
