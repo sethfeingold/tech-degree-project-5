@@ -30,13 +30,12 @@
 /* *************** */
 
  .grid-container {
-    display: grid;
+    display: block;
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
-    max-width: 400px;
 }
 
 .thumbnail {
@@ -58,9 +57,6 @@
         max-width: 600px;
     }
 
-    .thumbnail {
-        margin-bottom: 10px;
-    }
 
     .grid-container {
         display: grid;
@@ -69,6 +65,9 @@
         max-width: 700px;
     }
     
+    .thumbnail {
+        margin-bottom: 0px;
+    }
 
     .tabCol1 {
         grid-column-start: 1;
@@ -120,7 +119,4 @@
         grid-column-end: 5;
     }
 
-    .thumbnail {
-        margin-bottom: 30px;
-    }
 }
