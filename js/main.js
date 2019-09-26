@@ -1,3 +1,3 @@
-$('data-fancybox').fancybox({
-    arrows: true
+$('[data-fancybox]').fancybox({
+	arrows: true
 });
